@@ -25,3 +25,8 @@ button {
   /* changed from padding to margin */
   margin: 10px;
 }
+
+h1 {
+	font-size: 72px;
+	font-family: 'Charmonman', 'Comic Sans MS';
+}
