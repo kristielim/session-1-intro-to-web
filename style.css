@@ -25,3 +25,18 @@ button {
   /* changed from padding to margin */
   margin: 10px;
 }
+
+.noot {
+	color: green;
+}
+
+@keyframes fire {
+	0% {color: red; transform: translate(100px, 0px);}
+	50% {color: yellow; transform: translate(0px, 0px);}
+	100% {color: red; transform: translate(100px, 0px);}
+}
+
+#last {
+	color: green;
+	animation: fire 4s ease infinite;
+}
